@@ -10,7 +10,13 @@
  8. is_weekend
  9. day_of_week
  8. is_rush_hour
-
+## Label
+- Price
+# 2. Classification Model
+## Features
+ Similar to the regression model
+## Label
+- high_cost
 ### Model Evaluation & Comparison
 
 #### Comparison of Regression and Classification Outcomes
@@ -36,4 +42,4 @@ Distance remains dominant, with the highest coefficient in both models.
 ##### One Real-World Risk of Deploying This Model
 - Not accurate enough
 ##### One Limitation of the Dataset
-- Lacks real-time weather
+- Lacks real-time weather data
