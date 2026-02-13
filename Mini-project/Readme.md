@@ -1,3 +1,15 @@
+# Overview 
+
+This project develops predictive models for ride-sharing pricing using a comprehensive dataset encompassing distance, cab type, timestamps, and surge multipliers. A linear regression model forecasts continuous prices with an R² of 0.5182, while a logistic regression classifier distinguishes high- versus low-cost rides at 77.16% accuracy. Evaluations highlight distance as the dominant feature, alongside reflections on data quality, ethical pricing biases, and deployment risks.
+
+## How to run
+1. Clone the repository from the github link
+2. Navigate to `Mini-project > notebook `
+3. Use VSCode or any IDE that supports jupyter notebooks
+4. Finally run the notebook.
+
+P.S, The data will automatically download from kaggle. It's about 80mb so it would be good to run it on **Google Colab** environment
+
 # 1. Regression Model
 ## Features
  1. product_id
